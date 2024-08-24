@@ -61,11 +61,11 @@ function Header() {
           <div className='flex items-center gap-3'>
             <a href='/create-trip'>
             <Button variant="outline" 
-            className="rounded-full">+ Create Trip</Button>
+            className="rounded-full w-[85px] text-xs lg:text-sm lg:w-auto">+ Create Trip</Button>
             </a>
             <a href='/my-trips'>
             <Button variant="outline" 
-            className="rounded-full">My Trips</Button>
+            className="rounded-full w-[85px] text-xs lg:text-sm lg:w-auto">My Trips</Button>
             </a>
             <Popover>
             <PopoverTrigger>
