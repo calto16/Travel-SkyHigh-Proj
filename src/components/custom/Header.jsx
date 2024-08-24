@@ -50,7 +50,11 @@ function Header() {
   return (
     <div className='p-3 shadow-sm flex justify-between items-center px-5'>
      <a href='/'>
-      <img src='/loguyh.png' style={{position:"absolute",height: "5rem",top:"-0.4rem"}} />
+     <img 
+        src='/loguyh.png' 
+        className='absolute top-[-0.4rem] h-[3rem] mt-[14px] ml-[-20px]  lg:h-[5rem] lg:mt-0 lg:ml-0' 
+        alt='Logo' 
+      />
       </a>
       <div>
         {user ?
