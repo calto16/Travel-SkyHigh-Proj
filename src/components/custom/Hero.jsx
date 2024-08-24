@@ -13,7 +13,7 @@ function Hero() {
         muted 
         className='absolute top-0 left-0 w-full h-full object-cover -z-20'
       >
-        <source src='public/Videos/4061287-hd_1920_1080_30fps.mp4' type='video/mp4' />
+        <source src='public/Videos/6754296-uhd_3840_2160_30fps.mp4' type='video/mp4' />
         Your browser does not support the video tag.
       </video>
       
